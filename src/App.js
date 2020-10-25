@@ -1,24 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import {Switch, Route} from "react-router-dom"
+import Home from "./screens/Home"
+import MyNavbar from "./components/MyNavbar"
+import MyFooter from "./components/MyFooter"
+import infoHeroData from "./infoHeroData"
+import QuickInfoData from "./screens/QuickInfoData"
 
 function App() {
+  const findInfoHero = link=>{
+    return infoHeroData.filter(x=> x.link == link)[0]
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <MyNavbar/>
+    <Switch>
+      <Route exact path="/" render={(rp)=> <Home {...rp}/>} />
+      <Route exact path="/info/:infoLink" render={(rp)=> <QuickInfoData data={findInfoHero(rp.match.params.infoLink)} {...rp}/>} />
+      <Route  path="/" render={(rp)=> <h3>Error Path</h3>} />
+    </Switch>
+    <MyFooter/>
+    </>
   );
 }
 
