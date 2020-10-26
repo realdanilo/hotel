@@ -13,8 +13,9 @@ const Hero = ({backgroundImage,position, children,skew =0}) => {
     return (
         <div style={style}>
             <Container>
-
-        <Banner>{children}</Banner>
+                <Banner>
+                 {children}
+                </Banner>
             </Container>
             
         </div>

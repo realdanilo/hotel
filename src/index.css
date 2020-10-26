@@ -5,6 +5,9 @@
 a {
   color: white;
 }
+a:hover {
+  text-decoration: none !important;
+}
 .custom-bg {
   background-color: rgb(33, 34, 36);
 }

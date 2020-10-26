@@ -28,7 +28,7 @@ const Home = () => {
                 <Row className="m-3">
 
                     {infoHeroData.map((x,idx) => (
-                        <Col md={6} key={idx} style={{height:"50vh"}} className="p-3">
+                        <Col md={6} key={idx} style={{minHeight:"500px"}} className="p-3">
                             <InfoHero toLink={x.link} toName={x.name} backgroundImage={x.urlImg} variant={x.variant}/>
                         </Col>
 

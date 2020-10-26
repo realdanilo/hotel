@@ -13,7 +13,7 @@ function MyFooter() {
                         <Row>
                             <Col md={6}>
                                 <h4 className="lead my-4">Danilo 2020 &copy;</h4>
-                               <Link> <FaFacebookF/></Link> <Link><FaInstagram/></Link>
+                               <Link to="/"> <FaFacebookF/></Link> <Link to="/"><FaInstagram/></Link>
                             </Col>
                             <Col md={6}>
                                 <Row>
