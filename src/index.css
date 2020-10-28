@@ -47,3 +47,42 @@ a:hover {
 .InfoHeroBtn:hover {
   border: 1px solid black;
 }
+/* OneRoomCard */
+.OneRoomCard {
+  position: relative;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.OneRoomCard:hover img {
+  opacity: 0.8;
+}
+
+.OneRoomCard-price {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+.OneRoomCard-price:hover {
+  color: white;
+  background-color: black;
+}
+.OneRoomCard-name {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  color: white;
+  bottom: -7%;
+  height: 40px;
+  line-height: 40px;
+}
+.OneRoomCard img {
+  width: 100%;
+  transition: all 0.8s ease;
+}
