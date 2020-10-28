@@ -17,14 +17,16 @@ function MyFooter() {
                             </Col>
                             <Col md={6}>
                                 <Row>
-                                    <Col md="6">
+                                    <Col md={6}>
                                         <h4>Properties</h4>
                                         <p>Austin</p>
                                         <p>Phoenix</p>
                                         <p>Memphis</p>
+                                        <p>Austin</p>
+                                        <p>Denver</p>
                                     </Col>
                                     <Col md={6}>
-                                        <h4>Information</h4>
+                                        <h4>Info</h4>
                                         <p>Carrers</p>
                                         <p>Privacy</p>
                                     </Col>
@@ -38,7 +40,7 @@ function MyFooter() {
                         {/* form goes here */}
                         <Form>
                             <Form.Group>
-                                <Form.Label ><h4>Sign Up for Phoenix newsletter</h4></Form.Label>
+                                <Form.Label ><h4>Sign Up Newsletter</h4></Form.Label>
                                 <Form.Control type="email" placeholder="Enter email"/>
                             </Form.Group>
                             <Button>Submit</Button>

@@ -32,7 +32,7 @@ let initialState = {
 };
 //getData
 const getData = async () => {
-  let response = await client.getEntries({ content_type: "beachRooms", order: "fields.price" });
+  let response = await client.getEntries({ content_type: "hotelRoom", order: "fields.price" });
   return {
     loading: false,
     rooms: formatData(response.items),
