@@ -19,7 +19,7 @@ const Contact = ({location}) => {
             <Row style={{marginTop:"-90px"}}>
                 
                 <Col md={12} style={{padding:"70px", backgroundColor:"#FDF4D7"}}>
-                    <h1 className="text-black display-3 mb-4">INFORMATION</h1>
+                    <h1 className="text-black display-3 mb-4">INFO</h1>
                     <p className="lead">Need Something? Just contact via fax or phone</p>
                     <h3>ADDRESS</h3>
                     <p className="lead">
