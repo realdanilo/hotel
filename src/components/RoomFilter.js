@@ -46,7 +46,7 @@ const RoomFilter = ({rooms}) => {
                 {/* Room Price */}
                 <Form.Group controlId="roomPrice">
                     <Form.Label>Price: ${price}</Form.Label>
-                        <Form.Control type="range" step={10} name="price" max={maxPrice} min={minPrice} value={price} onChange={(e)=> handleChange(e)}>
+                        <Form.Control type="range" step={1} name="price" max={maxPrice} min={minPrice} value={price} onChange={(e)=> handleChange(e)}>
                     </Form.Control>
                 </Form.Group>
                 {/* Room Size */}
