@@ -37,6 +37,7 @@ const SingleRoom = ({room}) => {
                             <ListGroup.Item>Size: {size}</ListGroup.Item>
                             <ListGroup.Item>Capacity: {capacity}</ListGroup.Item>
                             <ListGroup.Item>Pets: {pets ? "Allowed": "Not Allowed"}</ListGroup.Item>
+                            <ListGroup.Item>Breakfast: {breakfast ? "Included": "Not Included"}</ListGroup.Item>
                         </ListGroup>
                     </Col>
                 </Row>
