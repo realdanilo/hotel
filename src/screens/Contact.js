@@ -9,12 +9,13 @@ const styleBtn={
     padding:"14px 18px",
     textTransform:"uppercase",
     fontSize:"19px",
+    marginTop:"20px"
 }
 const Contact = ({location}) => {
    
     return (
         <>
-        <Hero backgroundImage={"url(https://arrivehotels.com/wp-content/uploads/2020/09/option-1.jpg)"} />
+        <Hero backgroundImage={"url(https://arrivehotels.s3.amazonaws.com/wp-content/uploads/2021/01/09000449/Arrive-Phoenix-266-2.jpg)"} />
         <Container style={{boxShadow:"0 0 1rem rgba(0, 0, 0, 0.15)"}}>
             <Row style={{marginTop:"-90px"}}>
                 
@@ -33,7 +34,7 @@ const Contact = ({location}) => {
                         <b>Email:</b> example@gmail.com
                     </p>
                     <div>
-                        <a className="display-5" target="_blank" href="https://arrivehotels.com/phoenix" style={styleBtn}>Original Website</a>
+                        <a className="display-5 " target="_blank" href="https://arrivehotels.com/phoenix" style={styleBtn}>Original Website</a>
                     </div>
                    
                    

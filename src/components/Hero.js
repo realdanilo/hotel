@@ -7,7 +7,7 @@ const Hero = ({backgroundImage,position, children,skew =0}) => {
         height:"85vh",
        backgroundPosition: position || "center",
        backgroundSize:"cover",
-       backgroundImage:  backgroundImage || "url(https://arrivehotels.com/wp-content/uploads/2020/08/ARRIVE0045-1.jpg)",
+       backgroundImage:  backgroundImage || "url(https://arrivehotels.s3.amazonaws.com/wp-content/uploads/2021/01/08235916/Arrive-Phoenix-433-straightened.jpg)",
         transform:`skewY(${skew}deg)`,
     }
     return (

@@ -32,12 +32,12 @@ const stickyBtn ={
 const Pool = () => {
     return (
         <>
-        <Hero backgroundImage={"url(https://arrivehotels.com/wp-content/uploads/2020/08/phoenix-pool-header.jpg)"}>
+        <Hero backgroundImage={"url(https://images.squarespace-cdn.com/content/v1/5f2b4d89daddbf4da1d270ff/1603821082309-B49PC620367RH6Y2E1RL/ke17ZwdGBToddI8pDm48kKtijf5x5S0rIV7X_qDH3dB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UaZbTVdO5VSPAOxIcVIbmIFLIFeVDbQiz7iBIgNCzklBDD2o6CESiqIlH5ssNFrtmA/Arrive-Phoenix-535.jpg)"}>
             <h1 className="bg-light text-dark display-3 p-3">Summer</h1>
         </Hero>
         <Container style={{boxShadow:"0 0 1rem rgba(0, 0, 0, 0.15)"}}>
             <Row style={{marginTop:"-90px"}}>
-                <Col md={6} style={{backgroundImage:"url(https://arrivehotels.com/wp-content/uploads/2020/08/phoenix-pool-1.jpg)", backgroundPosition:"center", backgroundSize:"cover", minHeight:"300px"}}>
+                <Col md={6} style={{backgroundImage:"url(https://images.squarespace-cdn.com/content/v1/5f2b4d89daddbf4da1d270ff/1603816508606-4VWRMN2FSMV6DVOW7V2C/ke17ZwdGBToddI8pDm48kKtijf5x5S0rIV7X_qDH3dB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UaZbTVdO5VSPAOxIcVIbmIFLIFeVDbQiz7iBIgNCzklBDD2o6CESiqIlH5ssNFrtmA/Arrive-Phoenix-475+copy.jpg?format=500w)", backgroundPosition:"center", backgroundSize:"cover", minHeight:"300px"}}>
 
                 </Col>
                 <Col md={6} style={{padding:"70px", backgroundColor:"#FDF4D7"}}>
@@ -57,9 +57,9 @@ const Pool = () => {
                     <Link to="/" style={styleBtn}>Reservations</Link>
                 </div>
                 </Col>
-                <Col md={6} style={{backgroundImage:"url(https://arrivehotels.com/wp-content/uploads/2020/08/phoenix-pool-2.jpg)", backgroundPosition:"center", backgroundSize:"cover", minHeight:"300px"}} >
+                <Col md={6} style={{backgroundImage:"url(https://images.squarespace-cdn.com/content/v1/5f2b4d89daddbf4da1d270ff/1603816601804-9RM31NNUP4MVBEQU1TNU/ke17ZwdGBToddI8pDm48kDq_AfpvHPc_JToVKHvmwnh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWM3zWR28ni1MJpWb0bfIN_2xaQo0LunRq_PJLRGB2wkl2zTAtlDkkoFadVcrg4iSg/Arrive-Phoenix-451.jpg?format=500w)", backgroundPosition:"center", backgroundSize:"cover", minHeight:"300px"}} >
                 </Col>
-                <Col md={6} style={{backgroundImage:"url(https://arrivehotels.com/wp-content/uploads/2020/08/phoenix-pool-3.jpg)", backgroundPosition:"center", backgroundSize:"cover", minHeight:"300px"}}>
+                <Col md={6} style={{backgroundImage:"url(https://arrivehotels.s3.amazonaws.com/wp-content/uploads/2021/01/09172145/ARRIVE0030-1.jpg)", backgroundPosition:"center", backgroundSize:"cover", minHeight:"300px"}}>
                 </Col>
                 <Col md={6} style={{padding:"70px", backgroundColor:"#FDF4D7"}}>
                     <h1 className="text-black display-3 mb-4">GAME ON</h1>
