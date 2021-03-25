@@ -8,7 +8,7 @@ const btnStyle={
     backgroundColor:"black",
     color:"white",
     padding:"8px 13px",
-    fontSize:"15px"
+    fontSize:"15px",
 }
 const QuickInfoData = ({data}) => {
     const {name, description, urlImg}= data
@@ -20,19 +20,21 @@ const QuickInfoData = ({data}) => {
                 <Row className="mt-4">
                     
                     <Col md={8}>
-                    <h4 className="display-2">{name}</h4>
+                    <h4 className="display-2 ml-3">{name}</h4>
 
-                        <p style={{whiteSpace:"pre-wrap", padding:"20px", lineHeight:"1.8"}}>{description}</p>
+                        <p style={{whiteSpace:"pre-wrap", padding:"10px 40px 0 20px ", lineHeight:"1.8"}}>{description}</p>
                     </Col>
                     <Col md={4}>
                         <h4>MORE INFO</h4>
                         <p>
 
-                        <Link to="/"><FaInstagram/> Instagram</Link>
+                        <Link to="/" style={{color:"blue"}}><FaInstagram /> Instagram</Link>
                         </p>
                         <p>
-                        <Link to="/"><FaFacebookF/> Facebook</Link>
+                        <Link to="/" style={{color:"blue"}}><FaFacebookF/> Facebook</Link>
                         </p>
+                        <br/>
+
                         <p><Link style={btnStyle} to="/">Menu, Hours & More</Link></p>
                         <p><Link style={btnStyle} to="/">Reservations</Link></p>
                     </Col>

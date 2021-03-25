@@ -3,7 +3,7 @@ import Hero from "../components/Hero"
 import {Container, Row, Col, ListGroup, Image} from "react-bootstrap"
 
 const SingleRoom = ({room}) => {
-    const { breakfast, capacity, description, extras, featured, images, name, pets, price, size, type} = room
+    const { breakfast, capacity, description, extras, images, name, pets, price, size, type} = room
     const [ image , ...restImages]= images
     console.log(room)
     return (

@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react'
+import React, {useContext} from 'react'
 import {Form } from "react-bootstrap"
 import {RoomContext, DispatchContext} from "../utils/context"
 
@@ -9,7 +9,7 @@ const findUnique = (items,type)=>{
 const RoomFilter = ({rooms}) => {
     const state = useContext(RoomContext)
     const dispatch = useContext(DispatchContext)
-    const {type, capacity, minPrice, maxPrice, minSize, maxSize, size, price, breakfast,pets} = state
+    const {type, capacity, minPrice, maxPrice, minSize, maxSize, price, breakfast,pets} = state
     const roomTypeUnique = findUnique(rooms, "type").concat("all")
     const numberOfGuess = findUnique(rooms,"capacity")
 

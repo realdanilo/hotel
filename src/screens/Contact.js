@@ -1,7 +1,6 @@
 import React from 'react'
 import Hero from "../components/Hero"
 import {Row, Col, Container } from "react-bootstrap"
-import {Link} from "react-router-dom"
 
 const styleBtn={
     color:"white",
@@ -9,9 +8,8 @@ const styleBtn={
     padding:"14px 18px",
     textTransform:"uppercase",
     fontSize:"19px",
-    marginTop:"20px"
 }
-const Contact = ({location}) => {
+const Contact = () => {
    
     return (
         <>
@@ -33,8 +31,8 @@ const Contact = ({location}) => {
                     <p className="lead">
                         <b>Email:</b> example@gmail.com
                     </p>
-                    <div>
-                        <a className="display-5 " target="_blank" href="https://arrivehotels.com/phoenix" style={styleBtn}>Original Website</a>
+                    <div style={{margin:"40px 0 0 0"}}>
+                        <a className="display-5 " target="_blank" rel="noreferrer" href="https://arrivehotels.com/phoenix" style={styleBtn}>Original Website</a>
                     </div>
                    
                    

@@ -18,10 +18,10 @@ const Events = () => {
           </Hero>  
           <Container style={{boxShadow:"0 0 1rem rgba(0, 0, 0, 0.15)"}}>
             <Row style={{marginTop:"-90px"}}>
-                <Col md={6} style={{backgroundImage:"url(https://arrivehotels.s3.amazonaws.com/wp-content/uploads/2021/01/07001139/ARRIVE0031.jpg)", backgroundPosition:"center", backgroundSize:"cover", minHeight:"300px"}}>
+                <Col  className="order-1" md={6} style={{backgroundImage:"url(https://arrivehotels.s3.amazonaws.com/wp-content/uploads/2021/01/07001139/ARRIVE0031.jpg)", backgroundPosition:"center", backgroundSize:"cover", minHeight:"300px"}}>
 
                 </Col>
-                <Col md={6} style={{padding:"70px", backgroundColor:"#FDF4D7"}}>
+                <Col  className="order-2" md={6} style={{padding:"70px", backgroundColor:"#FDF4D7"}}>
                     <h1 className="text-black display-3 mb-4">ROOM BLOCKS</h1>
                     <p className="lead">ARRIVE Phoenix is a great place to host your wedding guests. At least the ones you like. Give us some details about your group and we’ll get the conversation started.</p>
                    
@@ -29,7 +29,8 @@ const Events = () => {
                         <Link to="/" style={styleBtn}>Reservations</Link>
                     </div>
                 </Col>
-                <Col md={6}  style={{padding:"70px", backgroundColor:"#FDF4D7"}}>
+                {/*  */}
+                <Col  className="order-4 order-md-3" md={6}  style={{padding:"70px", backgroundColor:"#FDF4D7"}}>
                 <h1 className="text-black display-3 mb-4">PRIVATE EVENTS</h1>
                 <p className="lead">
                 When the time is right, your destination for a party, cocktail reception or high-stakes PTA meeting.
@@ -38,7 +39,7 @@ const Events = () => {
                     <Link to="/" style={styleBtn}>Reservations</Link>
                 </div>
                 </Col>
-                <Col md={6} style={{backgroundImage:"url(https://images.squarespace-cdn.com/content/v1/5f2b4d89daddbf4da1d270ff/1603818811033-MCO1NQ8CUYEGEXELKXY1/ke17ZwdGBToddI8pDm48kKtijf5x5S0rIV7X_qDH3dB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UaZbTVdO5VSPAOxIcVIbmIFLIFeVDbQiz7iBIgNCzklBDD2o6CESiqIlH5ssNFrtmA/Arrive-Phoenix-494.jpg)", backgroundPosition:"center", backgroundSize:"cover", minHeight:"300px"}} >
+                <Col  className="order-3 order-md-4" md={6} style={{backgroundImage:"url(https://images.squarespace-cdn.com/content/v1/5f2b4d89daddbf4da1d270ff/1603818811033-MCO1NQ8CUYEGEXELKXY1/ke17ZwdGBToddI8pDm48kKtijf5x5S0rIV7X_qDH3dB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UaZbTVdO5VSPAOxIcVIbmIFLIFeVDbQiz7iBIgNCzklBDD2o6CESiqIlH5ssNFrtmA/Arrive-Phoenix-494.jpg)", backgroundPosition:"center", backgroundSize:"cover", minHeight:"300px"}} >
                 </Col>
                
             </Row>

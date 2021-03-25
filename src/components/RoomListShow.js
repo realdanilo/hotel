@@ -10,7 +10,7 @@ const RoomListShow = ({rooms}) => {
                 <OneRoomCard toLink={x.slug} backgroundImg={x.images[0]} name={x.name} price={x.price} />
                </Col>
            ))}
-           {rooms.length ==0 && <p className="display-3">No rooms match</p>}
+           {rooms.length ===0 && <p className="display-3">No rooms match</p>}
         </Row>
     )
 }

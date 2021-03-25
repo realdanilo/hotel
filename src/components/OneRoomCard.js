@@ -5,7 +5,7 @@ const OneRoomCard = ({toLink, backgroundImg, price, name}) => {
     return (
         <Link to={`/rooms/${toLink}`}>
             <div className="OneRoomCard">
-                <img src={backgroundImg} alt={`${name} image`}/>
+                <img src={backgroundImg} alt={`${name}`}/>
                 <p className="OneRoomCard-price">${price}</p>
                 <p className="OneRoomCard-name">{name}</p>
             </div>

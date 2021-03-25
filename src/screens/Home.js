@@ -1,6 +1,6 @@
 import React,{useContext} from 'react'
 import Hero from "../components/Hero"
-import {Row,Col, Container, Button} from "react-bootstrap"
+import {Row,Col, Container} from "react-bootstrap"
 import InfoHero from "../components/InfoHero"
 import infoHeroData from "../infoHeroData"
 import OneRoomCard  from "../components/OneRoomCard.js"
@@ -8,7 +8,7 @@ import {RoomContext} from "../utils/context"
 
 const Home = () => {
     const state = useContext(RoomContext)
-    const {featuredRooms,loading} = state 
+    const {featuredRooms} = state 
     return (
         <div>
             <Hero >

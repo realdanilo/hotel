@@ -51,7 +51,7 @@ const getData = async () => {
 }
  // findInfoHero is constant data
  const findInfoHero = link=>{
-  return infoHeroData.filter(x=> x.link == link)[0]
+  return infoHeroData.filter(x=> x.link === link)[0]
 }
 
 // App
@@ -66,7 +66,7 @@ function App() {
   },[])
 
   const getRoom = (slug)=>{
-    return state.rooms.find(x => x.slug == slug)
+    return state.rooms.find(x => x.slug === slug)
   }
 
   return (

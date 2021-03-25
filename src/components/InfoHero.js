@@ -1,8 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-import {Button } from "react-bootstrap"
 
-const InfoHero = ({toLink, toName, backgroundImage, variant}) => {
+const InfoHero = ({toLink, toName, backgroundImage}) => {
     const style={
         background:`url(${backgroundImage})`,
         backgroundSize:"cover",
